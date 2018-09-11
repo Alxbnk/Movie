@@ -16,4 +16,9 @@ public class MovieController {
     public String Alex(){
         return "Alex";
     }
+
+    @GetMapping("/Hello2")
+    public String Hello2(){
+        return "Hello2";
+    }
 }
